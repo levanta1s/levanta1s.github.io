@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment Checkout Form</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="payment">
+        <div class="payment-logo">
+            <p>BS</p>
+        </div>
+        <h2>BITSTARZ<span>★</span>CASINO</h2>
+        <h3>Платежный шлюз</h3>
+        <div class="form">
+            <div class="card space icon-relative">
+                <label class="label">Получатель:</label>
+                <label>
+                    <div class="input" id = "myDiv" onclick="copyText()">None</div>
+                    <div id="copiedMessage" class="copied-message">Скопировано</div>
+                </label>
+                <i class="fas fa-user"></i></div>
+            <div class="card space icon-relative">
+                <label class="label">Номер карты:</label>
+                <label>
+                    <div class="input" id = "myDiv1" onclick="copyText()">None</div>
+                    <div id="copiedMessage1" class="copied-message">Скопировано</div>
+                </label>
+                <i class="far fa-credit-card"></i></div>
+            <div class="card-grp space">
+                <div class="card-item icon-relative">
+                    <label class="label">Сумма депозита:</label>
+                    <label>
+                        <div class="input" id = "myDiv2" onclick="copyText()">None</div>
+                        <div id="copiedMessage2" class="copied-message">Скопировано</div>
+                    </label>
+                    <i class="far fa-calendar-alt"></i></div>
+                
+            </div>
+            <div class="btn"> Средства будут зачислены в автоматическом режиме.</div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
